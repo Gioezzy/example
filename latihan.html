@@ -4,25 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn GitHub</title>
-    <style>
-        h1 {
-            font-size: 2rem;
-            color: #f30000;
-            margin-bottom: 10px;
-        }
-
-        h3 {
-            font-size: 1.5rem;
-            color: #5a0e0e;
-            margin-bottom: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Git Tutorial</h1>
-    <h3>Git Commands</h3>
-    <h3>Saya di Main</h3>
-    <h3>Saya di Beta</h3>
-    <h3>Test</h3>
+    <header>
+        <h1>Git Tutorial</h1>
+    </header>
+
+    <main>
+        <section class="git-commands">
+            <h2>Git Commands</h2>
+            <ul>
+                <li>git init</li>
+                <li>git add .</li>
+                <li>git commit -m "Pesan commit"</li>
+                <li>git push origin main</li>
+            </ul>
+        </section>
+
+        <section class="branch-info">
+            <h2>Branch Information</h2>
+            <p class="branch">Saya di <span class="main-branch">Main</span></p>
+            <p class="branch">Saya di <span class="beta-branch">Beta</span></p>
+            <p class="branch">Test</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 GitHub Learning. All rights reserved.</p>
+    </footer>
 </body>
 </html>
