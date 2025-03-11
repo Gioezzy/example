@@ -1,4 +1,4 @@
-name: name: Automasi Testing Sebelum Merge
+name: Automasi Testing Sebelum Merge
 
 on:
   pull_request:
