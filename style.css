@@ -29,10 +29,10 @@ main {
     padding: 20rem;
     background-color: #fff;
     border-radius: 10rem;
-    box-shadow: 0 0 10rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10rem rgba(0, 0, 0, 1);
 }
 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #444;
     margin-bottom: 10rem;
 }
@@ -55,5 +55,5 @@ footer {
     padding: 10rem;
     background-color: #222;
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
